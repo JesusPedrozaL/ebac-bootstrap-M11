@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+            crossorigin="anonymous">
+    
+    <title>Boocks</title>
+</head>
+<body>
+    <div class="Page">
+        <header>
+            <i><img src="./img/Logo_boocks.jpg" alt="Logo"></i>
+            <h1>Espacio para Lectores</h1>
+            <div>
+                <div class="home">
+                    <!--Uso de icon-link para enlazar el icono al home-->
+                    <a class="icon-link" href="./index.html"><img src="./img/home_5616506.png" alt="Home"></a>
+                    <button type="button" class="btn">Iniciar seción</button>
+                    <button type="button" class="btn btn-link"><a href="./Form.html">Registrarse</a></button>
+                </div>
+                <div class="Lost-pw">
+                    <button type="button" class="btn btn-link"><a href="#">¿Olvidate tu contraseña?</a></button>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <Section class="Acordion-main" >
+                <h2>Libros recomendados</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-Item">
+                        <h2 class="accardion-Header">
+                            <button class="accordion-button" type="button" 
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                                Las Batallas del Desierto
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="containerBoocks">
+                                    <img src="./img/batallas-en-el-desierto_emilio-pacheco.jpg" alt="Desierto">
+                                    <h3>José Emilio Pacheco</h3>
+                                    <p>México crecía vertiginosamente, el mundo atravesaba un momento angustioso, 
+                                        la Ciudad de México se convertía en una metrópoli moderna, todo parecía al alcance de la mano, 
+                                        el aire tenía un aroma a novedad. 
+                                        La vida era una aventura, los niños jugaban a la guerra en Oriente Próximo: batallas en el desieron 
+                                        que se decidían en patios terregosos. 
+                                        Fue la época en que Carlos soñaba y recorría las calles de la colonia Roma con impaciencia propia de su edad. 
+                                        Aunque el mundo giraba presuroso, nada fue tan determinante para él cono el día en que conoció a la madre de 
+                                        su mejor amigo y en ella descubrió los resquemores que acompañan al primer amor y ponen fin a la infancia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-Item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" 
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" 
+                            aria-expanded="false" aria-controls="collapseTwo">
+                                Dracula
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" 
+                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="containerBoocks">
+                                    <img src="./img/Dracula_BramStoker.jpg" alt="Dracula">
+                                    <h3>Bram Stoker</h3>
+                                    <p>Antes de convertirse en un vampiro, el conde Drácula era el príncipe Vlad que, 
+                                        al enterarse de la muerte de su amada, vendió su alma al diablo. Cuatro siglos más tarde, 
+                                        Jonathan Harker, un joven abogado que viaja a un castillo perdido en el este de Europa, 
+                                        acaba siendo capturado por el conde Drácula.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-Item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" 
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" 
+                            aria-expanded="false" aria-controls="collapseThree">
+                                La Sombra del Viento
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" 
+                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="containerBoocks">
+                                <img src="./img/La_Sombra_CarlosRuizZafon.jpg" alt="Sombra">
+                                <h3>Carlos Ruíz Zafón</h3>
+                                <p>Un amanecer de 1945 un muchacho es conducido por su padre a un misterioso lugar oculto en el corazón de la ciudad vieja: 
+                                    El Cementerio de los Libros Olvidados. Allí, Daniel Sempere encuentra un libro maldito que cambiará el rumbo de su vida 
+                                    y le arrastrará a un laberinto de intrigas y secretos enterrados en el alma oscura de la ciudad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-Item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" 
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour" 
+                            aria-expanded="false" aria-controls="collapseFour">
+                                 Don Quijote de la Mancha
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" 
+                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="containerBoocks">
+                                    <img src="./img/Don_Quijote_MiguelCervantes.jpg" alt="Quijote">
+                                    <h3>Miguel de Cervantes</h3>
+                                    <p>Don Quijote de la Mancha narra las aventuras de Alonso Quijano, un hidalgo que, tras volverse loco por leer novelas 
+                                        de caballería, decide convertirse en caballero andante, nombrándose a sí mismo Don Quijote de la Mancha. Con su escudero 
+                                        Sancho Panza, emprende viajes para enmendar agravios y buscar la justicia en un mundo que ya no tiene lugar para los caballeros, 
+                                        lo que resulta en una parodia del género caballeresco y una crítica de la sociedad de su tiempo. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+            </Section>
+
+            <section class="carousel-main">
+            
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="containerBoocks">
+                                <img class="d-block w-30" src="./img/jose_emilio_pacheco.jpg" alt="Pacheco">
+                                <h3>José Emilio Pacheco</h3>
+                                <p>José Emilio Pacheco Berny (Ciudad de México, 30 de junio de 1939-Ciudad de México, 26 de enero de 2014)
+                                    fue un destacado escritor mexicano que publicó cuento, novela, poesía, ensayo, artículo, crónica y traducción.
+                                    La escritura de Pacheco se distingue por un constante cuestionamiento sobre la vida en el mundo moderno, sobre 
+                                    la literatura y su propia producción artística, así como por el uso de un lenguaje sin rebuscamientos, accesible.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="containerBoocks">
+                                <img class="d-block w-30" src="./img/Bram_Sroker.jpg" alt="Stoker">
+                                <h3>Bram Stoker</h3>
+                                <p>Bram Stoker (1847-1912) fue un escritor irlandés, autor de la inmortal obra de terror Drácula (1897), 
+                                    publicada tras una vida dedicada al periodismo, la crítica teatral y al servicio del actor Henry Irving, 
+                                    de quien fue secretario y representante durante 27 años. Stoker nació en Dublín, donde se licenció en Matemáticas 
+                                    y Ciencias, y tras su paso por la función pública, se mudó a Londres con Irving. Su carrera como escritor incluyó 
+                                    novelas como El desfiladero de la serpiente (1890) y La joya de las siete estrellas (1903), aunque fue Drácula, 
+                                    inspirada en leyendas de Transilvania y la figura de Vlad Tepes, la que lo catapultó a la fama. </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="containerBoocks">
+                                <img class="d-block w-30" src="./img/Carlos_Zafon.jpg" alt="Zafon">
+                                <h3>Carlos Ruíz Zafón</h3>
+                                <p>Carlos Ruiz Zafón (Barcelona, 1964) fue un novelista español, autor de la saga de El Cementerio de los Libros Olvidados, cuya novela La Sombra del Viento 
+                                    lo catapultó a la fama mundial. Tras una carrera en publicidad, emigró a Los Ángeles, donde trabajó como guionista y continuó su carrera literaria. 
+                                    Sus obras, traducidas a decenas de idiomas, son conocidas por su ambientación en una Barcelona misteriosa y gótica. Murió en Los Ángeles en 2020, a causa de un cáncer colorrectal. </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="containerBoocks">
+                                <img class="d-block w-30" src="./img/cervantes_miguel.jpg" alt="Quijote">
+                                <h3>Miguel de Cervantes</h3>
+                                <p>Miguel de Cervantes (1547-1616) fue un escritor, soldado y novelista español, autor de "El ingenioso hidalgo don Quijote de la Mancha" 
+                                    y una de las figuras literarias más importantes de la literatura mundial, a quien se considera el padre de la novela moderna. 
+                                    Su vida estuvo marcada por la pobreza, la lucha militar, su captura como prisionero en Argel y sus posteriores problemas económicos y judiciales. 
+                                    A pesar de estas dificultades, escribió obras de teatro, poemas y novelas, incluyendo las Novelas ejemplares y Los trabajos de Persiles y Sigismunda, 
+                                    pero fue la publicación de El Quijote en 1605 y 1615 lo que le dio fama universal, aunque no riqueza</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </Section>
+        </main>
+
+        <footer>
+            <!--Uso de navbar para enistar links del footer-->
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <div class="home">
+                        <a class="navbar-brand" href="./index.html"><img src="./img/home_5616506.png" alt="Home"></a>
+                    </div>
+                    <a class="navbar-brand" href="#"><img src="./img/facebook_1384021.png" alt="face"></a>
+                    <a class="navbar-brand" href="#"><img src="./img/instagram_1400829.png" alt="insta"></a>
+                    <a class="navbar-brand" href="#"><img src="./img/twitter_254406.png" alt="twitt"></a>
+                </div>
+            </nav>
+        </footer>
+    </div>
+
+<!-- Bootstrap java-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
