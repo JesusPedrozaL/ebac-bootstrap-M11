@@ -1,0 +1,208 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-size: 12px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    justify-content:space-around;
+    border-bottom: solid rgb(18, 119, 119);
+}
+
+header h1{
+    text-align: center;
+    font-weight: 600;
+    margin: auto;
+}
+
+header i{
+    display: flex;
+    cursor:pointer;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 115px;
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
+}
+
+header .home{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+header .home img{
+    width: 50px;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+main img{
+    width:120px;
+}
+
+main section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .accordion-Item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .accordion-button{
+    width: 1076px;
+}
+
+main .containerBoocks{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px ; 
+    display: grid;
+    grid-template-areas: 
+    "Imagen Tittle"
+    "Imagen Description";
+    gap: 15px;
+}
+
+main section div img{
+    grid-area: Imagen;
+}
+
+main section div h3{
+    grid-area: Tittle;
+}
+
+main section div p{
+    grid-area: Description;
+    text-align: justify;
+}
+
+.carousel-main{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.containerBoocks img{
+    margin:auto 0;
+}
+.containerBoocks h3{
+    text-align: center;
+}
+
+form{
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+form fieldset{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+legend{
+    text-align: center;
+}
+
+form fieldset div{
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+form fieldset div input{
+ width: 75%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    background-color: rgb(18, 119, 119);
+}
+
+footer img{
+    cursor: pointer;
+}
+footer img{
+    width: 50px;
+    padding: 10px 0;
+}
+
+/*Tamaño telefonos*/
+@media (max-width: 768px){
+    /*Header*/
+    header h1, header .home button, eader .home p a, .Lost-pw button a{
+        font-size: 11px;
+    }
+    header img{
+        width: 75px;
+    }
+
+    header .home a img{
+        width: 25px;
+    }
+    /*Main*/
+    main img{
+        width: 75px;
+    }
+    /*Configuracion del acordion*/
+    main .containerBoocks{
+        width: 400px;
+        height:100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section div h3{
+        font-size: 20px;
+    }
+
+    main section div p{
+        font-size: 11px;
+    }
+    /*Configuracion del carrusel*/
+    .carousel-main{
+        width: 500px;
+        height: 100%;
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+
+    /*Footer*/
+    footer a img{
+        width: 25px;
+    }
+}
